@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ConverterApp(Lab1)</string>
+    <string name="student_info">Application developed by PE-201 student Andrii Yermolenko</string>
+    <string name="convert_weight">Weight</string>
+    <string name="convert_temperature">Temperature</string>
+    <string name="convert_length">Length</string>
+    <string name="insert_value">Insert value</string>
+    <!-- Length -->
+
+
+</resources>

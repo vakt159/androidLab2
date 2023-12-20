@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LengthConverterActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/fromInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|center"
+        android:layout_marginBottom="70dp"
+        android:ems="10"
+        android:hint="@string/insert_value"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/fromValue"
+        android:layout_width="149dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center|center"
+        android:layout_marginBottom="120dp" />
+
+    <EditText
+        android:id="@+id/toOutput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|center"
+        android:layout_marginTop="70dp"
+        android:enabled="false"
+        android:maxLines="1" />
+
+    <Spinner
+        android:id="@+id/toValue"
+        android:layout_width="149dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center|center"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/weightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/convert_weight" />
+
+    <Button
+        android:id="@+id/temperatureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="35dp"
+        android:layout_gravity="bottom|right"
+        android:text="@string/convert_temperature" />
+
+</FrameLayout>
